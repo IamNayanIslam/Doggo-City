@@ -23,7 +23,7 @@ const App = () => {
 
     {/*  Hero Section ------------------------------------------------------------------------- */}
 
-      <div className="hero-section w-screen min-h-[400px] bg-indigo-600">
+      <div className="hero-section min-h-[400px] bg-indigo-600">
 
          <div className="max-w-screen-lg mx-auto md:flex lg:flex items-center justify-between py-20 px-10 text-indigo-100">
 
@@ -62,6 +62,29 @@ const App = () => {
           <p>Swims!</p>
         </div>
       </div>
+      </div>
+
+{/* ----------------------------------------Footer + Newsletter----------------------------------------*/}
+
+      <div className="bg-indigo-900">
+        <div className="p-10 max-2-screen-lg mx-auto text-indigo-400 md:flex lg:flex justify-between items-center">
+
+          {/* ----------------------------------------Footer + Newsletter left----------------------------------------*/}
+          <div className="md:w-1/2">
+            <h3 className="text-lg mb-2">Join the Newsletter</h3>
+            <form action="" className="flex">
+              <input type="email" placeholder="youremail@example.com" className="w-full rounded-l py-3 px-4 outline-none focus:bg-indigo-200" />
+              <button className="bg-red-300 text-red-800 rounded-r px-4">Join</button>
+            </form>
+          </div>
+
+          {/* ----------------------------------------Footer + Newsletter right----------------------------------------*/} 
+
+
+          <div className="text-center mt-5 md:mt-0 lg:mt-0">
+            Copyright &copy; Doggos 2024 - infinity
+          </div>
+        </div>
       </div>
     </>
   )
