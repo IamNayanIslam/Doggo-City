@@ -67,7 +67,7 @@ const App = () => {
 {/* ----------------------------------------Footer + Newsletter----------------------------------------*/}
 
       <div className="bg-indigo-900">
-        <div className="p-10 max-2-screen-lg mx-auto text-indigo-400 md:flex lg:flex justify-between items-center">
+        <div className="p-10 max-w-screen-lg mx-auto text-indigo-400 md:flex lg:flex justify-between items-center">
 
           {/* ----------------------------------------Footer + Newsletter left----------------------------------------*/}
           <div className="md:w-1/2">
@@ -82,7 +82,7 @@ const App = () => {
 
 
           <div className="text-center mt-5 md:mt-0 lg:mt-0">
-            Copyright &copy; Doggos 2024 - infinity
+            <p className="md:py-3 lg:py-3">Copyright &copy; Doggos 2024 - infinity</p>
           </div>
         </div>
       </div>
