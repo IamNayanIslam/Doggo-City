@@ -5,9 +5,9 @@ const App = () => {
     <>
       <nav className="bg-indigo-800">
         <div className="flex justify-between p-4 max-w-screen-lg mx-auto">
-        <div className="left flex items-center space-x-20">
-          <img src="https://cdn2.iconfinder.com/data/icons/icontober/64/Inkcontober_Trail-512.png" width="50" alt="Logo" />
-          <ul className="flex space-x-8 items-center">
+        <div className="left flex items-center space-x-2 md:space-x-20 lg:space-x-20">
+          <img src="https://cdn2.iconfinder.com/data/icons/icontober/64/Inkcontober_Trail-512.png" width="50" alt="Logo" className="cursor-pointer"/>
+          <ul className="flex space-x-2 md:space-x-8 lg:space-x-8 items-center">
             <li className="cursor-pointer text-indigo-200 hover:text-yellow-400 transition duration-300 ease">Home</li>
             <li className="cursor-pointer text-indigo-200 hover:text-yellow-400 transition duration-300 ease">About</li>
           </ul>
